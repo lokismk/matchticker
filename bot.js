@@ -22,6 +22,16 @@ client.on('message', message => {
 
 });
 
+
+client.on('message', message => {
+
+    if (message.content === 'nino') {
+
+       message.reply('nin4e');
+
+       }
+
+});
  
 
 // THIS  MUST  BE  THIS  WAY
